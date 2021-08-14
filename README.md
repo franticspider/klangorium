@@ -35,4 +35,33 @@ By the time you come to the end, you've reached Nirvana.  If you haven't had fun
 
 And if you do pick this up and enjoy, let me know?  
 
+# Simon's build notes
+
+## Powering the board
+
+## Mixer section
+
+This is the first thing to build as it connects the board to the output. Unfortunately, the kicad file for the mixer is empty! This is because the 4069 chip at the heart of the mixer is also used in the bass drum, and the other parts are listed in the `logic_noise_playground` file. 
+
+One other point - the weird blob alongside the low- and high-gain mixer inputs is a resistor ladder - not mentioned at all in the Hackaday pages..
+
+### BOM
+
+- **U4** 4069 chip
+- **J1** Stereo jack. I had problems with this one
+- 
+
+
+
+Issues:
+
+- Unclear how to actually use this!
+- what's that weird jumper thing next to the left/right header rows? 
+
+
+
+
+
+
+
 
