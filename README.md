@@ -35,15 +35,22 @@ By the time you come to the end, you've reached Nirvana.  If you haven't had fun
 
 And if you do pick this up and enjoy, let me know?  
 
+--- 
+
 # Simon's build notes
 
 ## Powering the board
+
+You're going to need to get power into this board before you do anything, but fortunately that's not too hard - there are three header pins to the right of the board - two for GND and one for VCC (which can be anything from 5-15 volts)
+
+![c_pwr.png][c_pwr.png]
+
 
 ## Mixer section
 
 This is the first thing to build as it connects the board to the output. Unfortunately, the kicad file for the mixer is empty! This is because the 4069 chip at the heart of the mixer is also used in the bass drum, and the other parts are listed in the `logic_noise_playground` file. 
 
-One other point - the weird blob alongside the low- and high-gain mixer inputs is a resistor ladder - not mentioned at all in the Hackaday pages..
+One other point - the weird blob alongside the low- and high-gain mixer inputs is a resistor array - not mentioned at all in the Hackaday pages..
 
 ### BOM
 
