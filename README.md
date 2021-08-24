@@ -43,7 +43,7 @@ And if you do pick this up and enjoy, let me know?
 
 You're going to need to get power into this board before you do anything, but fortunately that's not too hard - there are three header pins to the right of the board - two for GND and one for VCC (which can be anything from 5-15 volts)
 
-![c_pwr.png][c_pwr.png]
+![c_pwr.png](c_pwr.png)
 
 
 ## Mixer section
